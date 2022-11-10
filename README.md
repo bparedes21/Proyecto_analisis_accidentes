@@ -13,6 +13,9 @@ pi-03-powerbi.pbix------->
 
 			 + `Power BI` : dashboard
 
+Presentacion------------->
++ https://docs.google.com/presentation/d/1LhDOYOHI9AY0KWa3QyYjlPp6FCHtt5v5511Wk6EuQCg/edit?usp=sharing
+
 Voy a cumplir con el rol de un Data Analyst
 El Objetivo del análisis: es profundizar la investigación sobre accidentes producidos, obtener mayor claridad y consistencia en los fundamentos del estudio.
 
@@ -68,7 +71,7 @@ Por ej: La empresa Boeing reconoció tener pérdidas millonarias en dolares en l
 
 Esto mismo hace que la desconfianza de los inversores crezca aunque esto contrasta con los ingresos en facturación por entrega de aviones.
 
-Como conclucion Boieng tiene intensiones de mejorar estos numeros tanto economicos como de reducir fatalidades para seguir expandiendo su mercado. Boeing continuará invirtiendo en eficiencia para reducir el uso de combustible y la emisión de carbono. 
+Como conclusión Boieng tiene intenciones de mejorar estos números tanto económicos como de reducir fatalidades para seguir expandiendo su mercado. Boeing continuará invirtiendo en eficiencia para reducir el uso de combustible y la emisión de carbono
 
 fuentes:
 https://www.infobae.com/america/2021/01/28/boeing-perdio-usd-11900-millones-en-2020-entre-la-pandemia-los-problemas-del-737-max-y-los-retrasos-en-el-777x/
