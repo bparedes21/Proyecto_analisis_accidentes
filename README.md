@@ -4,7 +4,7 @@
 <div align = "center">
 <a href=""><img src="/img/accidentes.jpg" width="100%"></a>
 
-# [Proyecto Analisis de Datos :globe_with_meridians: , visualizacion con Power Bi :chart_with_upwards_trend:, crear historia a partir de los datos :memo:  ](#)
+# [Proyecto Analisis de Datos , visualizacion con Power Bi :chart_with_upwards_trend:, crear historia a partir de los datos :memo:  ](#)
   
 <H2> :point_down: Podes encontrar el Tablero aca! ✈️</H2>
 
