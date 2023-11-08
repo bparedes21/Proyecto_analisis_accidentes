@@ -48,33 +48,12 @@
 <div>
 
 ## About
-Cruzar con otra fuente de datos, realizar el tablero en Power bi, redactar una historia con los datos.
-Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macrotrends.net/.
 
-
+<div align = "center">
+<a href=""><img src="/img/accidentes.jpg" width="100%">Cruzar con otra fuente de datos, realizar el tablero en Power bi, redactar una historia con los datos.
+Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macrotrends.net/.</a>
 </div>
-</br>
 
-
-# **PROYECTO INDIVIDUAL Nº3**
-MacroTrends_Data_Download_BA
-EDA_AccidentesAviones       ----> 
-
-              + `Python`: EDA + transformaciones 
-
-miprimera.db------------->
-
-			 + `SQL`: base de datos
-
-pi-03-powerbi.pbix------->
-
-			 + `Power BI` : dashboard
-
-Presentacion------------->
-+ https://docs.google.com/presentation/d/1LhDOYOHI9AY0KWa3QyYjlPp6FCHtt5v5511Wk6EuQCg/edit?usp=sharing
-
-Voy a cumplir con el rol de un Data Analyst
-El Objetivo del análisis: es profundizar la investigación sobre accidentes producidos, obtener mayor claridad y consistencia en los fundamentos del estudio.
 
 Los datos provienen de:
 La Organización de Aviación Civil Internacional
