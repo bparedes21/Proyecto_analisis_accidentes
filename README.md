@@ -53,6 +53,9 @@
 <img src="/img/1.jpg" width="100%">Cruzar con otra fuente de datos, realizar el tablero en Power bi, redactar una historia con los datos.
 Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macrotrends.net/.
 </div>
+<div align = "center">
+<img src="/img/2.jpg" width="100%">
+</div>
 
 
 Los datos provienen de:
