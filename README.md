@@ -1,4 +1,60 @@
 
+<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></a>
+
+<div align = "center">
+<a href=""><img src="/img/accidentes.jpg" width="100%"></a>
+
+# [Proyecto Analisis de Datos :globe_with_meridians: , visualizacion con Power Bi :chart_with_upwards_trend:, crear historia a partir de los datos :memo:  ](#)
+  
+<H2> :point_down: Podes encontrar el Tablero aca! :dollar:</H2>
+
+:city_sunrise: [Tablero](https://drive.google.com/file/d/1k6ldkvm6nfUKWD5xpG3PUXJKG7y2L__m/view?usp=sharing) - Power bi 
+
+<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></a>
+
+## Table of Contents
+
+</br>
+
+| | Table Of Contents |
+|--|----------------|
+| 1 | [About](#About)  |
+| 2 | [Setup](#setup)  | 
+| 3 | [Consultas_SQL](#Consultas_SQL)  | 
+
+
+</div>
+
+<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></a>
+
+## Directory Structure
+
+```js
+├── jupyter
+│   ├── Exploracion de datos_AccidentesAviones.py  
+│ 
+├── Limpieza_y_transformacion_de_datos
+│   ├──funciones_py.py
+│   ├──Transformar_datos_de_accidentes.py
+│
+├──.Crear_db_SQLite_y_consultas.py   
+└── README.md
+```
+
+<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"></a>
+  
+******************************************************************************
+<div>
+
+## About
+Cruzar con otra fuente de datos, realizar el tablero en Power bi, redactar una historia con los datos.
+Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macrotrends.net/.
+
+
+</div>
+</br>
+
+
 # **PROYECTO INDIVIDUAL Nº3**
 MacroTrends_Data_Download_BA
 EDA_AccidentesAviones       ----> 
