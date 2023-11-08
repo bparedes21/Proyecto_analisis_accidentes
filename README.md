@@ -20,8 +20,7 @@
 | | Table Of Contents |
 |--|----------------|
 | 1 | [About](#About)  |
-| 2 | [Setup](#setup)  | 
-| 3 | [Consultas_SQL](#Consultas_SQL)  | 
+| 2 | [Consultas_SQL](#Consultas_SQL)  | 
 
 
 </div>
@@ -64,6 +63,13 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 🌍  [Presentacion](https://docs.google.com/presentation/d/1LhDOYOHI9AY0KWa3QyYjlPp6FCHtt5v5511Wk6EuQCg/edit?usp=sharing) - Analisis
 </div>
 
+******************************************************************************
+
+<div>
+
+## Consultas_SQL
+
+</div>
 fuentes:
 https://www.infobae.com/america/2021/01/28/boeing-perdio-usd-11900-millones-en-2020-entre-la-pandemia-los-problemas-del-737-max-y-los-retrasos-en-el-777x/
 
