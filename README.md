@@ -6,7 +6,7 @@
 
 # [Proyecto Analisis de Datos :globe_with_meridians: , visualizacion con Power Bi :chart_with_upwards_trend:, crear historia a partir de los datos :memo:  ](#)
   
-<H2> :point_down: Podes encontrar el Tablero aca! :dollar:</H2>
+<H2> :point_down: Podes encontrar el Tablero aca! ✈️</H2>
 
 :city_sunrise: [Tablero](https://drive.google.com/file/d/1k6ldkvm6nfUKWD5xpG3PUXJKG7y2L__m/view?usp=sharing) - Power bi 
 
