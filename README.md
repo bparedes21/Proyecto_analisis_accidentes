@@ -109,7 +109,6 @@ SELECT a.año, a.empresa, COUNT(a.empresa)   as cant_accid_por_empresa FROM Acci
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
 GROUP BY a.año , a.empresa
 ORDER BY   a.año  ASC   ,cant_accid_por_empresa DESC 
-LIMIT 10
 
 ```
 </div>
