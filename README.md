@@ -70,7 +70,8 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 ## Consultas_SQL
 
 ```js 
-SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
+SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año as año_de_accidente
+FROM Accidentes a 
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
 GROUP BY a.empresa
 ORDER BY cant_accid_por_empresa DESC 
@@ -81,8 +82,8 @@ Resultado de la consulta:
 
 <div align = "center">
 
-| | Table Of Contents |
-|--|----------------|
+| cant_accid_por_empresa | empresa | año_de_accidente |
+|--|----------------|  |
 | 13| Boeing  | 2017   |
 | 9 | Antonov | 2017   |
 | 2 | Lockheed  | 2017 |
