@@ -72,10 +72,11 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 Se requiere saber cual es la empresa fabricante de aviones que tuvo mas aviones involucrados en accidentes aereos a partir del año 2016. Y el año de los incidentes.
 
 ```js 
-SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
+
+SELECT a.año, a.empresa, COUNT(a.empresa)   as cant_accid_por_empresa FROM Accidentes a 
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
 GROUP BY a.año , a.empresa
-ORDER BY cant_accid_por_empresa DESC ,  a.año  ASC  
+ORDER BY   a.año  ASC   ,cant_accid_por_empresa DESC 
 LIMIT 10
 
 ```
@@ -85,18 +86,18 @@ Resultado de la consulta:
 
 <div align = "center">
 
-| cant_accid_por_empresa | empresa | año_de_accidente |
+| año_de_accidente | empresa | cant_accid_por_empresa |
 |---|----------------|---|
-| 5 | Boeing  | 2018   |
-| 3 | Boeing  | 2019   |
-| 3 | Boeing  | 2020   |
-| 2 | Antonov | 2017   |
-| 2 | Antonov | 2018   |
-| 2 | Antonov | 2019   |
-| 2 | Antonov | 2020   |
-| 1 | Boeing | 2017   |
-| 1 | Lockheed | 2017   |
-| 1 | De Havilland | 2018   |
+| 2017 | Antonov  |  2  |
+| 2017 | Lockheed  |  1  |
+| 2017 | Boeing  |  1  |
+| 2018 | Boeing |  5  |
+| 2018 | Antonov |  2  |
+| 2018 | Lockheed |  1  |
+| 2018 | Lockheed |  1  |
+| 2018 | De Havilland |  1  |
+| 2019 | Boeing |  3  |
+| 2019 | Antonov |  2  |
 
 </div>
 
