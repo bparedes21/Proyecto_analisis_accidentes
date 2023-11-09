@@ -69,14 +69,26 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 
 ## Consultas_SQL
 
-```js document.style.color="#ff0000"
+```js 
 SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
 GROUP BY a.empresa
 ORDER BY cant_accid_por_empresa DESC 
 ```
+</div>
 
+Resultado de la consulta:
 
+<div align = "center">
+
+| | Table Of Contents |
+|--|----------------|
+| 13| Boeing  | 2017   |
+| 9 | Antonov | 2017   |
+| 2 | Lockheed  | 2017 |
+| 1 | Junkers | 2018   |
+| 1 | Douglas | 2019   |
+| 1 | De Havilland | 2018 |
 
 </div>
 fuentes:
