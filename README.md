@@ -73,7 +73,7 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 
 <div>
 
-## Consultas_SQL
+## Consultas_SQL  :computer:
 
 Se requiere contar la cantidad de fallecidos de las empresas fabricantes de aviones que estuvieron involucradas en accidentes aereos a partir del año 2016. 
 
