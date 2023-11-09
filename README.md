@@ -83,7 +83,7 @@ Resultado de la consulta:
 <div align = "center">
 
 | cant_accid_por_empresa | empresa | año_de_accidente |
-|--|----------------|  |
+|---|----------------|---|
 | 13| Boeing  | 2017   |
 | 9 | Antonov | 2017   |
 | 2 | Lockheed  | 2017 |
