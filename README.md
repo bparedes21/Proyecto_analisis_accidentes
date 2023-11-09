@@ -75,8 +75,8 @@ Se requiere saber cual es la empresa fabricante de aviones que tuvo mas aviones 
 SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
 GROUP BY a.año , a.empresa
-ORDER BY cant_accid_por_empresa DESC 
-LIMIT 4
+ORDER BY cant_accid_por_empresa DESC ,  a.año  ASC  
+LIMIT 10
 
 ```
 </div>
@@ -91,6 +91,12 @@ Resultado de la consulta:
 | 3 | Boeing  | 2019   |
 | 3 | Boeing  | 2020   |
 | 2 | Antonov | 2017   |
+| 2 | Antonov | 2018   |
+| 2 | Antonov | 2019   |
+| 2 | Antonov | 2020   |
+| 1 | Boeing | 2017   |
+| 1 | Lockheed | 2017   |
+| 1 | De Havilland | 2018   |
 
 </div>
 
