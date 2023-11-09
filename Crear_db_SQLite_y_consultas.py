@@ -50,8 +50,8 @@ conn.commit()
 
 url_accidentes="https://drive.google.com/file/d/12f2cg41-j0KlOZ5XmYfBbSnnPS-t4WHP/view?usp=sharing"
 
-enlace_descarga_csv_accidentes=Limpieza_y_transformacion_de_datos.funciones_py.generar_url_descarga_de_achivo(url_accidentes)
-AccidentesAviones=pd.read_csv(enlace_descarga_csv_accidentes)
+#enlace_descarga_csv_accidentes=Limpieza_y_transformacion_de_datos.funciones_py.generar_url_descarga_de_achivo(url_accidentes)
+AccidentesAviones=pd.read_csv(url_accidentes)
 AccidentesAviones.to_sql('Accidentes', con=conn, index=False, index_label='Date', if_exists='replace')
 conn.commit()
 """

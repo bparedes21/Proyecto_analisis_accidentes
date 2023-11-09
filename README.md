@@ -69,6 +69,15 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 
 ## Consultas_SQL
 
+```js style.color="#fff"
+SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
+WHERE a.año >2016 and a.empresa <> "Otra empresa"
+GROUP BY a.empresa
+ORDER BY cant_accid_por_empresa DESC 
+```
+
+
+
 </div>
 fuentes:
 https://www.infobae.com/america/2021/01/28/boeing-perdio-usd-11900-millones-en-2020-entre-la-pandemia-los-problemas-del-737-max-y-los-retrasos-en-el-777x/
