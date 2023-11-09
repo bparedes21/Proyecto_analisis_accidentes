@@ -69,7 +69,7 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 
 ## Consultas_SQL
 
-```js style.color="#ff0000"
+```js document.style.color="#ff0000"
 SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
 GROUP BY a.empresa
