@@ -69,12 +69,15 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 
 ## Consultas_SQL
 
+Se requiere saber cual es la empresa fabricante de aviones que tuvo mas aviones involucrados en accidentes aereos a partir del año 2016. Y el año de los incidentes.
+
 ```js 
-SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año as año_de_accidente
-FROM Accidentes a 
+SELECT COUNT(a.empresa) as cant_accid_por_empresa, a.empresa,a.año  FROM Accidentes a 
 WHERE a.año >2016 and a.empresa <> "Otra empresa"
-GROUP BY a.empresa
+GROUP BY a.año , a.empresa
 ORDER BY cant_accid_por_empresa DESC 
+LIMIT 4
+
 ```
 </div>
 
@@ -84,14 +87,13 @@ Resultado de la consulta:
 
 | cant_accid_por_empresa | empresa | año_de_accidente |
 |---|----------------|---|
-| 13| Boeing  | 2017   |
-| 9 | Antonov | 2017   |
-| 2 | Lockheed  | 2017 |
-| 1 | Junkers | 2018   |
-| 1 | Douglas | 2019   |
-| 1 | De Havilland | 2018 |
+| 5 | Boeing  | 2018   |
+| 3 | Boeing  | 2019   |
+| 3 | Boeing  | 2020   |
+| 2 | Antonov | 2017   |
 
 </div>
+
 fuentes:
 https://www.infobae.com/america/2021/01/28/boeing-perdio-usd-11900-millones-en-2020-entre-la-pandemia-los-problemas-del-737-max-y-los-retrasos-en-el-777x/
 
