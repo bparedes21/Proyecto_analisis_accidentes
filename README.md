@@ -69,7 +69,33 @@ Para cruzar datos con otras fuentes utilizo los datos que provee la web www.macr
 
 ## Consultas_SQL
 
-Se requiere saber cual es la empresa fabricante de aviones que tuvo mas aviones involucrados en accidentes aereos a partir del año 2016. Y el año de los incidentes.
+Se requiere contar la cantidad de fallecidos de las empresas fabricantes de aviones que estuvieron involucradas en accidentes aereos a partir del año 2016. 
+
+```js 
+
+SELECT a.empresa , SUM(all_fatalities) as cantidad_de_fallecidos  FROM Accidentes a 
+WHERE a.año >2016 and a.empresa <> "Otra empresa"
+GROUP BY  a.empresa
+ORDER BY  cantidad_de_fallecidos  DESC 
+
+```
+
+<div align = "center">
+
+| empresa | cant_accid_por_empresa |
+|-----|-------|
+| Boeing  |  744  |
+| Antonov  |  205  |
+| De Havilland  |  51  |
+| Lockheed |  25  |
+| Junkers |  20  |
+| Douglas |  14  |
+
+</div>
+
+Se requiere saber la cantidad de accidente de las empresa fabricantes de aviones que estuvieron involucradas en accidentes aereos a partir del año 2016. 
+
+Resultado de la consulta:
 
 ```js 
 
@@ -98,8 +124,48 @@ Resultado de la consulta:
 | 2018 | De Havilland |  1  |
 | 2019 | Boeing |  3  |
 | 2019 | Antonov |  2  |
+| 2019 | Douglas |  1  |
+| 2020 | Boeing |  3  |
+| 2020 | Antonov |  2  |
+| 2021 | Boeing |  1  |
+| 2021 | Antonov |  1  |
 
 </div>
+
+Se requiere contar la cantidad de fallecidos por año a partir del año 2016 de las empresas fabricantes de aviones que estuvieron involucradas en accidentes aereos .  
+
+```js 
+SELECT a.año, a.empresa , SUM(all_fatalities) as cantidad_de_fallecidos  FROM Accidentes a 
+WHERE a.año >2016 and a.empresa <> "Otra empresa"
+GROUP BY a.año , a.empresa
+ORDER BY   a.año  ASC, cantidad_de_fallecidos  DESC 
+
+```
+
+Resultado de la consulta:
+
+<div align = "center">
+
+| año_de_accidente | empresa | cantidad_de_fallecidos |
+|---|----------------|---|
+| 2017 | Lockheed  |  16  |
+| 2017 | Antonov  |  16  |
+| 2017 | Boeing  |  4  |
+| 2018 | Boeing |  304  |
+| 2018 | Antonov |  110  |
+| 2018 | De Havilland |  51  |
+| 2018 | Junkers |  20  |
+| 2018 | Lockheed |  9  |
+| 2019 | Boeing |  175  |
+| 2019 | Antonov |  18  |
+| 2019 | Douglas |  14  |
+| 2020 | Boeing |  199  |
+| 2020 | Antonov |  33  |
+| 2020 | Boeing |  62  |
+| 2021 | Antonov |  28  |
+
+</div>
+
 
 fuentes:
 https://www.infobae.com/america/2021/01/28/boeing-perdio-usd-11900-millones-en-2020-entre-la-pandemia-los-problemas-del-737-max-y-los-retrasos-en-el-777x/
