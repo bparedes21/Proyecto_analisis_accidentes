@@ -47,7 +47,7 @@
 <div>
 
 ## About
-<H3> Objetivos: </H3>
+<H3> :white_check_mark: Objetivos: </H3>
 
 - `Cruzar con otra fuente de datos.` 
 - `Realizar el tablero en Power bi.` 
