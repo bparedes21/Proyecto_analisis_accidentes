@@ -6,7 +6,7 @@
 
 # [Proyecto Analisis de Datos ](#)
   
-# [Visualizacion con Power Bi :chart_with_upwards_trend:, crear historia a partir de los datos :memo:  ](#)
+# :chart_with_upwards_trend: [Visualizacion con Power Bi  , crear historia a partir de los datos :memo:  ](#)
 <H2> :point_down: Podes encontrar el Tablero aca! ✈️</H2>
 
 :city_sunrise: [Tablero](https://drive.google.com/file/d/1k6ldkvm6nfUKWD5xpG3PUXJKG7y2L__m/view?usp=sharing) - Power bi 
@@ -47,7 +47,8 @@
 <div>
 
 ## About
-<H3> :white_check_mark: Objetivos: </H3>
+
+<H3> Objetivos  :white_check_mark: : </H3>
 
 - `Cruzar con otra fuente de datos.` 
 - `Realizar el tablero en Power bi.` 
